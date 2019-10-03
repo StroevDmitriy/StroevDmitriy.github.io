@@ -208,14 +208,15 @@ input {
     @media (hover) {
       #nav li a:hover {
         color: #2cd3b8; } }
+    @media screen and (max-width: 991px) {
+      #nav li a {
+        color: #393e6b;
+        font-weight: bold; } }
   #nav li:not(:last-child) {
     margin-right: 20px; }
     @media screen and (max-width: 991px) {
       #nav li:not(:last-child) {
-        margin-right: 0px;
-        font-weight: bold; }
-        #nav li:not(:last-child) a {
-          color: #393e6b; } }
+        margin-right: 0px; } }
 
 #burger-menu {
   position: absolute;
